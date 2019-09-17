@@ -1,11 +1,12 @@
 import React from 'react'
-import { Link, NavLink, withRouter } from 'react-router-dom'
+import { NavLink, withRouter } from 'react-router-dom'
+import logo from '../images/runinc_logo.svg'
 // <NavLink to="/about">About</NavLink>
 
 const Navbar = () => {
     return (
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
-            <NavLink className="navbar-brand font-weight-bold text-danger" href="#"><img src="../src/images/runinc_logo.svg" alt="" />RUN<span className="text-dark">INC</span></NavLink>
+            <NavLink to="/" className="navbar-brand font-weight-bold text-danger" href="#"><img src="" alt="" />RUN<span className="text-dark">INC</span></NavLink>
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
             </button>
