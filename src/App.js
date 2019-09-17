@@ -15,8 +15,8 @@ function App() {
           <Switch>
             <Route exact path="/" component={Frontpage} />
             <Route path="/event" component={Event} />
-            <Route path="/contact" component={Shop} />
-            <Route path="/news" component={Contact} />
+            <Route path="/Shop" component={Shop} />
+            <Route path="/contact" component={Contact} />
           </Switch>
       </BrowserRouter>
     </div>
