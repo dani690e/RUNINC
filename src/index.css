@@ -11,3 +11,9 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+.Frontpage {
+  height: 95vh;
+  background-image: url(../src/images/hero.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
