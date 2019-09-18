@@ -8,7 +8,7 @@ const Event = () => {
     ]);
     const EventList = events.map(event => {
         return (
-            <div className="event">
+            <div className="event" key={Math.random()}>
                 <h4 className="text-decoration-none">{event.Lokation}</h4>
                 <p>{event.Dato}</p>
             </div>

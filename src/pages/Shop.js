@@ -25,7 +25,7 @@ const Shop = () => {
     })
     const ProductList = shoes.map(shoe => {
         return (
-            <div className="product">
+            <div className="product" key={Math.random()}>
                 <img src={"../../img/" + shoe.url} alt={shoe.caption} className="img-fluid"/>
                 <p>{shoe.caption}</p>
             </div>
