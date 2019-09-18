@@ -19,13 +19,15 @@ const Event = () => {
         <div className="Event row">
             <section className="col-12 pr-0 col-md-9">
                 <h2 className="text-white">NEXT EVENT</h2>
-                <img src={event} alt="" className="img-fluid"/>
+                <img src={event} alt="" className="w-100" />
             </section>
-            <aside className="col-12 col-md-3 bg-yellow mh-50">
-                <h3>Events</h3>
-                <ul className="list-unstyled">
-                    {EventList}
-                </ul>
+            <aside className="col-12 col-md-3 bg-yellow d-flex justify-content-center">
+                <div className="flex-column d-flex justify-content-center">
+                    <h3>Events</h3>
+                    <ul className="list-unstyled">
+                        {EventList}
+                    </ul>
+                </div>
             </aside>
         </div>
     );

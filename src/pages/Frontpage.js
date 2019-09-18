@@ -8,6 +8,7 @@ const Frontpage = () => {
         <div className="pages">
             <div className="Frontpage">
                 <h2 className="text-white">We Love <span className="text-yellow">Running</span></h2>
+                <img src="" alt=""/>
             </div>
             <Event/>
             <Shop/>
