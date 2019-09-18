@@ -32,7 +32,7 @@ const Shop = () => {
         )
     })
     return (
-        <div className="Shop d-flex">
+        <div className="Shop row">
             <section className="shopNav bg-yellow  col-12 col-md-3 p4">
                 <div className="shopInfo mt4">
                     <h3>SHOP</h3>

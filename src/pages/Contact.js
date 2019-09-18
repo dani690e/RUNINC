@@ -3,7 +3,7 @@ import map from '../images/map.JPG'
 
 const contact = () => {
     return (
-        <div className="Contact d-flex">
+        <div className="Contact row">
             <section className="contactInfo col-12 col-md-6">
                 <h2 className="bg-yellow border border-dark">Contact</h2>
                 <img src={map} alt="" className="img-fluid"/>

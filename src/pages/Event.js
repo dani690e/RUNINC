@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import event from '../images/event.jpg'
 
 const Event = () => {
     const [events] = useState([
@@ -15,9 +16,10 @@ const Event = () => {
         )
     })
     return (
-        <div className="Event d-flex">
-            <section className="col-12 col-md-9">
+        <div className="Event row">
+            <section className="col-12 pr-0 col-md-9">
                 <h2 className="text-white">NEXT EVENT</h2>
+                <img src={event} alt="" className="img-fluid"/>
             </section>
             <aside className="col-12 col-md-3 bg-yellow mh-50">
                 <h3>Events</h3>

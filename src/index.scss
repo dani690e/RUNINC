@@ -41,12 +41,7 @@ code {
   }
 }
 .Event {
-  height: 93vh;
-  flex-wrap: wrap;
-  
   section {
-    background: no-repeat url(../src/images/event.jpg);
-    background-size: cover;
     height: 100%;
 
     h2 {
@@ -69,7 +64,6 @@ code {
   }
 }
 .Shop {
-  flex-wrap: wrap;
   .shopNav {
     padding-left: 50px;
   }
@@ -104,7 +98,6 @@ code {
   }
 }
 .Contact {
-  flex-wrap: wrap;
   height: 100vh;
   .contactInfo {
     padding-left: 0;
@@ -135,7 +128,7 @@ code {
       font-size: 1.3rem
     }
     button {
-      width: 25%;
+      width: 50%;
       margin: 10px 0;
       background-color: black;
       color: white;
