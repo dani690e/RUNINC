@@ -6,7 +6,7 @@ import logo from '../images/runinc_logo.svg'
 const Navbar = () => {
     return (
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
-            <NavLink to="/" className="navbar-brand font-weight-bold text-danger" href="#"><img src="" alt="" />RUN<span className="text-dark">INC</span></NavLink>
+            <NavLink to="/" className="navbar-brand font-weight-bold text-danger" href="#"><img src={logo} alt="logo" /></NavLink>
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
             </button>
@@ -19,8 +19,8 @@ const Navbar = () => {
                 </ul>
             </div>
             <form className="form-inline">
-                <input className="bg-warning text-white border border-dark" type="search" aria-label="Search"/>
-                <button className="btn btn-outline-light bg-dark text-white" type="submit">Search</button>
+                <input className="bg-yellow text-white border border-dark" type="search" aria-label="Search"/>
+                <button className="btn-outline-light bg-black text-white" type="submit">Search</button>
             </form>
         </nav>
             )

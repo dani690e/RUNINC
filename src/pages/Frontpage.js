@@ -7,7 +7,7 @@ const Frontpage = () => {
     return (
         <div className="pages">
             <div className="Frontpage">
-                <h2 className="text-white">We Love <span className="text-warning">Running</span></h2>
+                <h2 className="text-white">We Love <span className="text-yellow">Running</span></h2>
             </div>
             <Event/>
             <Shop/>
