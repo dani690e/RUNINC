@@ -4,7 +4,7 @@ import Frontpage from './pages/Frontpage'
 import Event from './pages/Event'
 import Shop from './pages/Shop'
 import Contact from './pages/Contact'
-import Navbar from './header/navBar' 
+import Navbar from './header/navBar'
 
 
 function App() {
